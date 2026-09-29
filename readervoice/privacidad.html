@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reader Voice — Privacidad</title>
+<style>
+  :root { --texto: #1f2a28; --fundo: #ffffff; --destaque: #00695c; --suave: #5b6b68; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e3ebe9; --fundo: #121816; --destaque: #6fd3c2; --suave: #9fb1ad; } }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.6 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: var(--destaque); font-size: 1.7em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.15em; margin-top: 1.8em; }
+  .data { color: var(--suave); margin-top: 0; }
+  .idiomas { font-size: 0.95em; }
+  a { color: var(--destaque); }
+</style>
+</head>
+<body>
+<main>
+<p class="idiomas"><a href="privacidade.html" hreflang="pt-BR">Português</a> · <a href="privacy.html" hreflang="en">English</a> · <strong>Español</strong></p>
+<h1>Reader Voice — Política de privacidad</h1>
+<p class="data">Vigente desde el 28 de septiembre de 2026</p>
+
+<p>Reader Voice es una aplicación para Android que lee en voz alta libros EPUB y PDF en español, inglés o
+portugués, y traduce en el propio dispositivo los textos en otros idiomas. La desarrolla y mantiene
+FERMATools, responsable de esta aplicación.</p>
+
+<h2>Resumen</h2>
+<p>Reader Voice <strong>no pide registro, no muestra anuncios y no envía tus libros ni tu historial de
+lectura a nadie</strong>. El desarrollador solo recibe estadísticas de uso anónimas, que no te identifican y
+se pueden desactivar.</p>
+
+<h2>Tus libros y tu lectura</h2>
+<p>Los archivos que abres, el texto extraído de ellos, la posición de lectura, los marcadores y las
+preferencias (velocidad, voz, tono, opciones de limpieza del texto) se guardan solo en la memoria interna de tu
+dispositivo. Se borran cuando quitas el libro de la app o desinstalas la app.</p>
+
+<h2>Traducción e identificación del idioma</h2>
+<p>La traducción y la identificación del idioma se hacen en el dispositivo con
+<a href="https://developers.google.com/ml-kit">ML Kit de Google</a>. El texto de los libros no sale del dispositivo.
+La primera vez que se usa un idioma, la app descarga el modelo de traducción de los servidores de Google
+(unos 30 MB). Para funcionar y mejorar el servicio, ML Kit envía a Google información técnica (modelo y versión
+de Android del dispositivo, versión de la app, idiomas configurados e identificados, mediciones de rendimiento y
+códigos de error), cifrada (HTTPS). Según Google, estos datos no se comparten con terceros. Consulta la
+<a href="https://developers.google.com/ml-kit/android-data-disclosure">divulgación de datos de ML Kit</a> y la
+<a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
+
+<h2>Estadísticas de uso anónimas</h2>
+<p>Para saber qué funciones se usan y dónde mejorar, la app envía estadísticas anónimas al servicio
+<a href="https://aptabase.com">Aptabase</a>, diseñado para no identificar a las personas. Solo se envía:</p>
+<ul>
+  <li>eventos como "app abierta", "libro importado", "lectura", "temporizador", "marcador" y comandos que vienen
+  del reloj o de los auriculares;</li>
+  <li>información general de esos eventos: formato del archivo (EPUB/PDF), idioma del libro, número de frases,
+  minutos escuchados, velocidad, si hubo traducción y a qué idioma, el motor de voz y las opciones de pausa;</li>
+  <li>la versión de la app y de Android y el idioma del sistema;</li>
+  <li>un número de sesión aleatorio, que cambia tras una hora sin uso y no se guarda en el dispositivo.</li>
+</ul>
+<p>No se envían nombre, correo, cuenta, identificador del dispositivo o de publicidad, ubicación, ni títulos,
+textos o archivos de los libros. Los datos se envían cifrados (HTTPS) y sirven solo para estadísticas agregadas.
+Para desactivarlas, abre <strong>Acerca de</strong> (icono ⓘ en la biblioteca) y desactiva "Estadísticas de uso
+anónimas".</p>
+
+<h2>Voz</h2>
+<p>La lectura usa el motor de síntesis de voz instalado en el dispositivo (por ejemplo, "Servicios de voz de
+Google"). Si eliges en la app una voz marcada como "online", el propio motor de voz envía las frases a su
+proveedor para generar el audio, según la política de ese proveedor. Las voces "offline" funcionan sin internet.</p>
+
+<h2>Permisos</h2>
+<ul>
+  <li><strong>Internet</strong>: descargar los modelos de traducción y enviar las estadísticas anónimas.</li>
+  <li><strong>Notificaciones</strong>: mostrar los controles de lectura en la notificación y en la pantalla de bloqueo.</li>
+  <li><strong>Servicio en primer plano / mantener activo</strong>: seguir leyendo con la pantalla apagada.</li>
+</ul>
+<p>La app solo accede a los archivos que eliges abrir.</p>
+
+<h2>Niños</h2>
+<p>La app no está dirigida a niños y no recopila datos personales de nadie.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, la nueva versión se publicará en esta página con la fecha de vigencia actualizada.</p>
+
+<h2>Contacto</h2>
+<p>FERMATools — <a href="mailto:fermatools@gmail.com">fermatools@gmail.com</a></p>
+</main>
+</body>
+</html>
