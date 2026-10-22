@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reader Voice</title>
+<meta name="description" content="Reader Voice: ouça seus livros EPUB e PDF em voz alta, traduzidos no próprio celular para português, inglês ou espanhol, mesmo offline.">
+<style>
+  :root { --texto: #1f2a28; --fundo: #ffffff; --destaque: #00695c; --suave: #5b6b68; --cartao: #f2f6f5; --botao-texto: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e3ebe9; --fundo: #121816; --destaque: #6fd3c2; --suave: #9fb1ad; --cartao: #1c2422; --botao-texto: #10201d; } }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.6 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  .topo { display: flex; gap: 16px; align-items: center; }
+  .topo img { width: 80px; height: 80px; border-radius: 18px; flex: none; }
+  h1 { font-size: 1.9em; margin: 0; line-height: 1.2; }
+  .lema { color: var(--suave); margin: 0.2em 0 0; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; }
+  ul, ol { padding-left: 1.2em; }
+  li { margin: 0.3em 0; }
+  .baixar { display: inline-block; background: var(--destaque); color: var(--botao-texto); text-decoration: none; font-weight: 600;
+            padding: 12px 22px; border-radius: 10px; margin-top: 24px; }
+  .nota { background: var(--cartao); border-radius: 12px; padding: 12px 16px; margin-top: 16px; font-size: 0.95em; }
+  .outros { background: var(--cartao); border-radius: 12px; padding: 4px 16px 12px; margin-top: 32px; }
+  .outros h2 { margin-top: 0.8em; }
+  a { color: var(--destaque); }
+  footer { margin-top: 48px; color: var(--suave); font-size: 0.9em; }
+</style>
+</head>
+<body>
+<main>
+  <div class="topo">
+    <img src="icone.png" alt="">
+    <div>
+      <h1>Reader Voice</h1>
+      <p class="lema">Ouça qualquer livro, já traduzido, como um audiolivro.</p>
+    </div>
+  </div>
+
+  <a class="baixar" href="https://play.google.com/store/apps/details?id=io.github.fermatools.readervoice&amp;hl=pt_BR">Baixar no Google Play</a>
+  <p style="color: var(--suave); font-size: 0.9em; margin-top: 6px;">Android 8 ou mais recente. Gratuito, sem anúncios e sem cadastro.</p>
+
+  <p>Tem um livro em inglês, espanhol ou francês e queria ouvi-lo em português? O Reader Voice abre o seu
+  EPUB ou PDF, traduz cada frase no próprio celular e lê a tradução em voz alta, do começo ao fim.</p>
+
+  <h2>O que ele faz</h2>
+  <ul>
+    <li><b>Ouve o livro já traduzido</b>, frase por frase, a partir de mais de 50 idiomas, em português, inglês ou espanhol.</li>
+    <li><b>Funciona offline</b>: a tradução é feita no celular; a internet só é usada uma vez, para baixar cada idioma.</li>
+    <li><b>Como um audiolivro</b>: continua com a tela desligada, com controles no fone, na notificação e no relógio,
+      e lembra a frase exata onde você parou.</li>
+    <li><b>Texto limpo para ouvir</b>: tira cabeçalhos, rodapés e números de página, lê PDFs em duas colunas
+      na ordem certa e lê as notas de rodapé no lugar certo (ou pula).</li>
+    <li><b>Sua biblioteca</b>: capas, busca, etiquetas, busca no texto do livro, timer para dormir e backup.</li>
+  </ul>
+
+  <h2>Como usar</h2>
+  <ol>
+    <li>Instale pelo Google Play.</li>
+    <li>Toque em <b>Abrir livro</b> e escolha um EPUB ou PDF do celular.</li>
+    <li>Escolha em que idioma quer ouvir (<b>Ler em</b>) e toque em play.</li>
+  </ol>
+
+  <div class="nota">
+    Para a melhor voz, use os <b>Serviços de voz do Google</b> com uma voz offline do seu idioma; o próprio app
+    ajuda a configurar. PDFs digitalizados (só imagem, sem texto) ainda não são lidos. A tradução é automática e
+    pode conter erros: o original prevalece.
+  </div>
+
+  <div class="outros">
+    <h2 lang="en">English</h2>
+    <p lang="en">Listen to your EPUB and PDF books read aloud, translated on your phone into English, Spanish or
+      Portuguese, even offline. Free, no ads, no sign-up.
+      <a href="https://play.google.com/store/apps/details?id=io.github.fermatools.readervoice&amp;hl=en">Get it on Google Play</a>.</p>
+    <h2 lang="es">Español</h2>
+    <p lang="es">Escucha tus libros EPUB y PDF en voz alta, traducidos en tu teléfono al español, inglés o portugués,
+      incluso sin conexión. Gratis, sin anuncios ni registro.
+      <a href="https://play.google.com/store/apps/details?id=io.github.fermatools.readervoice&amp;hl=es">Disponible en Google Play</a>.</p>
+  </div>
+
+  <h2>Privacidade e termos</h2>
+  <p>O Reader Voice não pede cadastro e seus livros nunca saem do celular. Só são enviadas estatísticas anônimas de
+    uso, que podem ser desligadas na tela Sobre.</p>
+  <p><a href="privacidade.html" hreflang="pt-BR">Política de privacidade</a> ·
+    <a href="privacy.html" hreflang="en">Privacy policy</a> ·
+    <a href="privacidad.html" hreflang="es">Política de privacidad</a><br>
+    <a href="termos.html" hreflang="pt-BR">Termos de uso</a> ·
+    <a href="terms.html" hreflang="en">Terms of use</a> ·
+    <a href="terminos.html" hreflang="es">Términos de uso</a></p>
+
+  <footer><a href="../">FERMATools</a> · Contato: <a href="mailto:fermatools@gmail.com">fermatools@gmail.com</a></footer>
+</main>
+</body>
+</html>
